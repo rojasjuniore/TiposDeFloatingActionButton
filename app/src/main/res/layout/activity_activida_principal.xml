@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.rojasjuniore.tiposdefloatingactionbutton.ActividaPrincipal">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="@string/titulo" />
+
+        <ImageButton
+            android:id="@+id/caso1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/titulo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/caso1"
+            android:onClick="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_user_button" />
+
+        <ImageButton
+            android:id="@+id/caso2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/caso1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/caso2"
+            android:onClick="2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_user_button" />
+
+        <ImageButton
+            android:id="@+id/caso3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/caso2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/caso3"
+            android:onClick="3"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_user_button" />
+
+        <ImageButton
+            android:id="@+id/caso4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/caso3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/caso4"
+            android:onClick="4"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_user_button" />
+
+        <ImageButton
+            android:id="@+id/caso5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/caso4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/caso5"
+            android:onClick="5"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_user_button" />
+
+        <ImageButton
+            android:id="@+id/caso6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/caso5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/caso6"
+            android:onClick="5"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_user_button" />
+
+        <ImageButton
+            android:id="@+id/caso7"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_below="@+id/caso6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/caso7"
+            android:onClick="7"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_user_button" />
+    </ScrollView>
+
+</RelativeLayout>

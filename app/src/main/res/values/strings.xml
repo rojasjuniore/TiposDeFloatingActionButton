@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Floating Action Button En Android – Material Design</string>
+    <string name="titulo">Floating Action Button En Android – Material Design</string>
+    <string name="titulo2">Rompimiento de bordes con el floating action button</string>
+    <string name="caso1">Caso 1</string>
+    <string name="caso2">Caso 2</string>
+    <string name="caso3">Caso 3</string>
+    <string name="caso4">Caso 4</string>
+    <string name="caso5">Caso 5</string>
+    <string name="caso6">Caso 6</string>
+    <string name="caso7">Caso 7</string>
+
+</resources>
